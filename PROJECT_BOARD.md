@@ -19,8 +19,8 @@ A child completes one magical learning loop and wants to come back tomorrow.
 | Ticket | Description | Status |
 | --- | --- | --- |
 | #000 | Project Board | Complete |
-| #001 | Design System | Current |
-| #002 | Flutter Theme | Not Started |
+| #001 | Design System | Complete |
+| #002 | Flutter Theme | Current |
 | #003 | Component Library | Not Started |
 | #004 | Splash Screen | Not Started |
 | #005 | Onboarding | Not Started |
@@ -34,7 +34,7 @@ A child completes one magical learning loop and wants to come back tomorrow.
 
 ## Current Ticket
 
-#001 - Design System
+#002 - Flutter Theme
 
 ## Ticket Lifecycle
 
