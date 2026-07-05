@@ -25,14 +25,17 @@ shared/
     animations/
     rewards/
     speech/
+    theme/
 ```
 
 ## Build Order
 
 1. Design System
 2. Game Components
-3. Game Engine
-4. Screens
+3. Theme System
+4. Navigation
+5. Game Engine
+6. Screens
 
 Do not create a one-off screen when a reusable component or engine system is missing.
 
@@ -42,6 +45,7 @@ Do not create a one-off screen when a reusable component or engine system is mis
 
 Reusable action controls:
 
+- Primary Button
 - Animated Button
 - Audio Button
 - Continue Button
@@ -55,6 +59,7 @@ Reusable game object surfaces:
 - Character Card
 - Adventure Card
 - World Tile
+- Collectible Card
 - Lesson Word Card
 - Challenge Option Card
 
@@ -102,6 +107,7 @@ Reusable symbolic elements:
 Reusable progress indicators:
 
 - XP Widget
+- XP Bar
 - Progress Widget
 - Lesson step indicator
 - World progress indicator
@@ -111,6 +117,8 @@ Reusable progress indicators:
 Reusable motion tokens and wrappers:
 
 - Button pulse.
+- Animated Background.
+- Floating Cloud.
 - Word reveal.
 - Reward reveal.
 - Celebration scale.
@@ -130,9 +138,31 @@ Reusable reward surfaces and logic hooks:
 Reusable dialogue surfaces:
 
 - Speech Bubble
+- Dialogue Box
 - Companion line
 - Family voice line
 - Prompt bubble
+
+## Step 4 Game Component Library
+
+Step 4 exists to prevent screen-first development. The expected result is a reusable component library that lets future screens be assembled like Lego blocks.
+
+Required first-wave blocks:
+
+- PrimaryButton
+- AdventureCard
+- CharacterCard
+- SpeechBubble
+- RewardPopup
+- XPBar
+- WorldTile
+- FoxWidget
+- AnimatedBackground
+- DialogueBox
+- FloatingCloud
+- CollectibleCard
+
+Each block should be small, readable, reusable, and aligned with `docs/DESIGN_SYSTEM.md`.
 
 ## Mini Game Framework Systems
 

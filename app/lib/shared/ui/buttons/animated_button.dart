@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 
+import 'primary_button.dart';
+
 class AnimatedButton extends StatelessWidget {
   const AnimatedButton({
     super.key,
@@ -15,13 +17,11 @@ class AnimatedButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final button = icon == null
-        ? ElevatedButton(onPressed: onPressed, child: Text(label))
-        : ElevatedButton.icon(
-            onPressed: onPressed,
-            icon: Icon(icon),
-            label: Text(label),
-          );
+    final button = PrimaryButton(
+      label: label,
+      icon: icon,
+      onPressed: onPressed,
+    );
 
     return button
         .animate(target: onPressed == null ? 0 : 1)

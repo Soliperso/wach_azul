@@ -14,10 +14,14 @@ Always follow:
 - docs/product/PRD.md
 - docs/product/Game_Design_Document.md
 - docs/design/DESIGN_SYSTEM.md
+- docs/design/Theme_System.md
 - docs/engineering/Technical_Architecture.md
+- docs/engineering/Data_Layer.md
 - docs/engineering/Flutter_Standards.md
 - docs/engineering/Implementation_Workflow.md
 - docs/engineering/Flutter_Component_Library.md
+- docs/engineering/Navigation.md
+- docs/production/Assets_Pipeline.md
 
 ## Product Principle
 
@@ -49,6 +53,8 @@ Build in this order:
 Do not start with screens unless the design system, reusable components, and required game logic already exist for that flow.
 
 Every screen should be composed from `app/lib/shared/ui/` wherever possible.
+
+Assets should follow `docs/production/Assets_Pipeline.md` and live under `app/assets/`.
 
 ## Current Build Strategy
 

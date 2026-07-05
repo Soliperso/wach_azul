@@ -2,38 +2,35 @@
 
 ## Phase
 
-Current phase: before Sprint 1.
+Current phase: Sprint 1.
 
 ## Current Step
 
-Phase 0 - Production Foundation.
+Sprint 1 - Vertical Slice.
 
-Step 1 - Repository Structure.
+Step 1 - Build the first complete local learning loop.
 
 ## Deliverables
 
-- Constitution
-- PRD
-- Roadmap
-- GDD
-- AGENTS
-- Design System
+- Splash
+- Onboarding
+- Create Child
+- Family Village
+- Tap Yemma
+- Learn
+- Adventure
+- Reward
+- Azul celebrates
+- Come back tomorrow
 
 ## Checkpoint
 
-Can any new AI engineer understand the project in 30 minutes?
+Can a child complete one magical local loop and understand what to do next?
 
-If not, improve documentation before moving on.
-
-## Next Steps After Checkpoint
-
-1. Flutter Architecture
-2. Sprint 1 plan
-3. Vertical Slice implementation
+If not, simplify the loop before adding scope.
 
 ## Out Of Scope Right Now
 
-- More screens.
 - More worlds.
 - Supabase.
 - Subscriptions.
