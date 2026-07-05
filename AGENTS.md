@@ -9,6 +9,7 @@ Always follow:
 - ROADMAP.md
 - GDD.md
 - CURRENT_SPRINT.md
+- PROJECT_BOARD.md
 - DEVELOPMENT_CHECKLIST.md
 - AGENTS.md
 - docs/DESIGN_SYSTEM.md
@@ -69,6 +70,8 @@ The child should want to come back tomorrow.
 
 ## Operating Loop
 
+Start every session by reading `PROJECT_BOARD.md`.
+
 Use this loop for every step:
 
 1. Pick one small step.
@@ -90,6 +93,7 @@ Before implementing, check:
 - ROADMAP.md
 - GDD.md
 - CURRENT_SPRINT.md
+- PROJECT_BOARD.md
 - DEVELOPMENT_CHECKLIST.md
 - AGENTS.md
 - docs/DESIGN_SYSTEM.md
