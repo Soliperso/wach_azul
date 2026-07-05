@@ -9,6 +9,7 @@ Always follow:
 - ROADMAP.md
 - GDD.md
 - CURRENT_SPRINT.md
+- DEVELOPMENT_CHECKLIST.md
 - AGENTS.md
 - docs/DESIGN_SYSTEM.md
 - docs/product/PRD.md
@@ -78,6 +79,8 @@ Use this loop for every step:
 6. Commit when the step is coherent and the worktree can be staged without mixing unrelated work.
 7. Move to the next step.
 
+Every step must pass `DEVELOPMENT_CHECKLIST.md` before commit.
+
 ## Required References
 
 Before implementing, check:
@@ -87,6 +90,7 @@ Before implementing, check:
 - ROADMAP.md
 - GDD.md
 - CURRENT_SPRINT.md
+- DEVELOPMENT_CHECKLIST.md
 - AGENTS.md
 - docs/DESIGN_SYSTEM.md
 
